@@ -8,7 +8,8 @@ import Message from '../message/message';
 import ReactScrollToBottom from 'react-scroll-to-bottom';
 
 // const ENDPOINT = 'http://localhost:4500/';
-const ENDPOINT = 'http://192.168.1.2:4500/';
+// const ENDPOINT = 'http://192.168.1.2:4500/';
+const ENDPOINT = 'https://anony-met-backend.vercel.app/';
 let socket;
 const Chat = () => {
     const [messages, setMessages] = useState([]);

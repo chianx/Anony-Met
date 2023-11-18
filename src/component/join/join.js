@@ -24,7 +24,8 @@ const Join = () => {
         user = document.getElementById("name").value;
         document.getElementById("name").value = "";
         // const response = await fetch('http://localhost:4500/getRandomRoom');
-        const response = await fetch('http://192.168.1.2:4500/getRandomRoom');
+        // const response = await fetch('http://192.168.1.2:4500/getRandomRoom');
+        const response = await fetch('https://anony-met-backend.vercel.app/getRandomRoom');
         const data = await response.json();
         room = data.roomID;
         console.log("roomm = ", room);
