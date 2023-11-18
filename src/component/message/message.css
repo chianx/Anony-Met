@@ -1,0 +1,33 @@
+.msgContainer {
+    width:100%;
+    display: grid;
+}
+.message {
+    background-color: rgb(30, 30, 30);
+    padding:5px; 
+    border-top-right-radius:6px;
+    border-top-left-radius: 6px;
+    margin:4px;
+    color:white;
+    font-size:1.2rem;
+    max-width: 70%;
+}
+.right {
+    justify-self: flex-end;
+    border-bottom-left-radius: 6px;
+}
+.left {
+    justify-self: flex-start;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(146, 25, 25);
+}
+.mid {
+    background-color: whitesmoke;
+    color:grey;
+    justify-self: center;
+    font-size:1.1rem;
+}
+.fromText {
+    color: rgb(158, 158, 158);
+    padding-bottom: 3px;
+}
